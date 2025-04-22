@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 import { useEffect, useState } from "react";
-import { NavBar } from "./NavBar.tsx";
+import { NavBar } from "./NavBar";
 import { AuthComponent, MyVideos } from "./VideoModalSupabaseAuth";
 import AIVideoGenerator from "./AIVideoGenerator";
 import { createClient } from "@supabase/supabase-js";
